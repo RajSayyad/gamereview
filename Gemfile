@@ -58,3 +58,9 @@ group :development do
   gem "web-console"
 end
 
+
+gem "jsbundling-rails", "~> 1.3"
+
+gem "vite_rails", "~> 3.0"
+
+gem "rack-cors", "~> 2.0"
