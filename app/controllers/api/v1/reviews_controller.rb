@@ -9,7 +9,7 @@ module Api
               render json: { error: review.errors.full_messages }, status: 422
             end
           end
-  
+
         def destroy
           review = Review.find_by(id: params[:id])
           if review&.destroy
@@ -18,13 +18,12 @@ module Api
             render json: { error: "Review not found or could not be deleted" }, status: 422
           end
         end
-  
+
         private
-  
+
         def review_params
           params.require(:review).permit(:title, :description, :score, :gamecd_id)
         end
       end
     end
-  end
-  
+end

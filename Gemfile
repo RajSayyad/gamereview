@@ -31,7 +31,7 @@ gem "solid_cable"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem 'fast_jsonapi'
+gem "fast_jsonapi"
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false
@@ -61,5 +61,4 @@ end
 
 gem "jsbundling-rails", "~> 1.3"
 
-gem 'rack-cors'
-
+gem "rack-cors"
