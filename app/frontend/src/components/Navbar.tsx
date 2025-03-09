@@ -9,7 +9,7 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold tracking-wide uppercase">
-          NY<span className="text-red-500">Vibe</span>
+          Game<span className="text-red-500">Reviews</span>
         </Link>
 
         {/* Desktop Menu */}

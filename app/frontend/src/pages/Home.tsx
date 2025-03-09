@@ -35,7 +35,7 @@ const Home = () => {
           <div key={index} className="bg-[#1a0e08] p-4 rounded-lg shadow-md">
             <Link
               key={game.id}
-              to={`/${game.attributes.slug ?? game.id}`} // Fallback to ID if slug is null
+              to={`/cd/${game.attributes.slug ?? game.id}`} // Fallback to ID if slug is null
               className="block bg-[#1a0e08] p-4 rounded-lg shadow-md transition hover:scale-105"
             >
               <img
